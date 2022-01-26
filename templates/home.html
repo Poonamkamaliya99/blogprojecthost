@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Blog</title>
+            <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {% comment %} {% if request.user.is_authenticated %}
+          <li class="nav-item">              
+            <a class="nav-link" href="">{{request.user}}</a>
+            </li>
+
+           
+           <li class="nav-item">              
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
+            {% else %}
+           
+            <li class="nav-item" >
+             <a href="/login" class="nav-link ">Login</a>
+            </li>
+
+            <li class="nav-item mx-2">
+             <a href="/register" class="nav-link ">Registration</a>
+            </li>
+
+
+          {% endif %} {% endcomment %}
+         
+            <h2>This is home page</h2>
+
+        </ul>
+      </div>
+	</script>
+</body>
+</html>
+
+
+
