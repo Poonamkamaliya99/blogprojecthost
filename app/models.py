@@ -1,6 +1,6 @@
 import email
 from email.policy import default
-from tkinter import N
+# from tkinter import N
 from django.db import models
 from tinymce.models import HTMLField
 from django.contrib.auth.models import User
